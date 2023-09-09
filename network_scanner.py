@@ -21,8 +21,5 @@ def scan(ip, my_ip, my_mac):
 
 
 
-if my_machine is not None:
-    scan(arguments.range, my_machine['ip'], my_machine['mac'])
-else:
-    print("[-] Please Check the Interface")
-    exit()
+scan(arguments.range, my_machine['ip'], my_machine['mac'])
+
