@@ -14,9 +14,9 @@ Requirements and Usage:
   
    command :- pip install -r requirements.txt
 
-2.For Windows you have to install packet manipulation driver npcap the link to download it is in below
+2. For Windows you have to install packet capture and manipulation driver npcap the link to download it is in below
   
-  link :- https://npcap.com/
+   link :- https://npcap.com/
 
 
 3. Use this tool in virtual environment you created (Recommended)
