@@ -1,6 +1,12 @@
-import scapy.all as scapy
+import os
 from get_interface import choose_interface_and_get_info
-import termcolor
+
+try:
+    import scapy.all as scapy
+    import termcolor
+except ModuleNotFoundError:
+    os.system("pip install scapy")
+    os.system("pip install termcolor")
 
 my_machine = choose_interface_and_get_info()
 
