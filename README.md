@@ -14,8 +14,13 @@ Requirements and Usage:
   
    command :- pip install -r requirements.txt
 
-2. Use this tool in virtual environment you created (Recommended)
+2.For Windows you have to install packet manipulation driver npcap the link to download it is in below
+  
+  link :- https://npcap.com/
 
-3. To run this tool use following command :- python network_scanner.py 
+
+3. Use this tool in virtual environment you created (Recommended)
+
+4. To run this tool use following command :- python network_scanner.py 
 
 
